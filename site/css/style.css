@@ -42,4 +42,18 @@ body {
         background: rgba(228, 31, 24, 0.7);
         padding: 10px; 
     }
+
+    .third_picture {
+        grid-row: 7/10;
+        grid-column: 1/4;
+    }
+
+    .text_on_third {
+        grid-row: 8/9;
+        grid-column: 2/3;
+        letter-spacing: -1px;  
+        background: #e41f18; /* fallback color */
+        background: rgba(228, 31, 24, 0.7);
+        padding: 10px; 
+    }
 }
