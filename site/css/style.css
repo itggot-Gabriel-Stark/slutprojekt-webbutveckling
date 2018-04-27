@@ -24,8 +24,8 @@ body {
         grid-row: 2/3;
         grid-column: 2/3;
         letter-spacing: -1px;  
-        background: rgb(0, 0, 0); /* fallback color */
-        background: rgba(0, 0, 0, 0.7);
+        background: #e41f18; /* fallback color */
+        background: rgba(228, 31, 24, 0.7);
         padding: 10px; 
     }
 }
