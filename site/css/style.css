@@ -23,13 +23,12 @@ header {
 
 header.shrink {
     height: 75px;
-    background: rgba(0, 0, 0, 0.7);
 }
 
 @media only screen and (max-width: 960px){
     .wrapper {
         display: grid;
-        margin: 0;
+        margin-top: 100px;
         width:100vw;
         height: auto;
         grid-template-columns: repeat(3,1fr);
@@ -103,7 +102,21 @@ header.shrink {
     }
 
     .big-boi-img {
-        grid-row: 1/6;
+        grid-row: 1/7;
+        grid-column: 1/4;
+    }
+
+    .jobb-kort-text {
+        grid-row: 3/5;
+        grid-column: 2/3;
+        letter-spacing: -1px;  
+        background: #e41f18; /* fallback color */
+        background: rgba(228, 31, 24, 0.7);
+        padding: 10px; 
+    }
+
+    .jobb-long-text {
+        grid-row: 7/13;
         grid-column: 1/4;
     }
 }
