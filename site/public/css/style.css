@@ -70,4 +70,14 @@ body {
         background: rgba(228, 31, 24, 0.7);
         padding: 10px; 
     }
+
+    .about-text {
+        grid-row: 4/9;
+        grid-column: 1/4;
+    }
+
+    .we-best {
+        grid-row: 9/10;
+        grid-column: 1/4;
+    }
 }
