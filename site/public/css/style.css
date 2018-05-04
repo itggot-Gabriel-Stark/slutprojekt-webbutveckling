@@ -5,6 +5,27 @@ body {
     margin: 0;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+    color:#fff;
+    z-index: 1000;
+    height: 100px;
+    overflow: hidden;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    transition: height 0.3s;
+    text-align:center;
+}
+
+header.shrink {
+    height: 75px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
 @media only screen and (max-width: 960px){
     .wrapper {
         display: grid;
@@ -78,6 +99,11 @@ body {
 
     .we-best {
         grid-row: 9/10;
+        grid-column: 1/4;
+    }
+
+    .big-boi-img {
+        grid-row: 1/6;
         grid-column: 1/4;
     }
 }
