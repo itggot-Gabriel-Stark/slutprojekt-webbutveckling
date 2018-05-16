@@ -160,4 +160,64 @@ li a:hover {
         grid-row: 7/13;
         grid-column: 1/4;
     }
+
+    .original_img {
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+
+    .original_txt {
+        grid-row: 1/2;
+        grid-column: 2/4;
+    }
+
+    .cheeseburgare_img {
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+
+    .cheeseburgare_txt {
+        grid-row: 3/4;
+        grid-column: 2/4;
+    }
+
+    .sallad_img {
+        grid-row: 5/6;
+        grid-column: 1/2;
+    }
+
+    .sallad_txt {
+        grid-row: 5/6;
+        grid-column: 2/4;
+    }
+
+    .frisco_img {
+        grid-row: 7/8;
+        grid-column: 1/2;
+    }
+
+    .frisco_txt {
+        grid-row: 7/8;
+        grid-column: 2/4;
+    }
+
+    .cheesenbacon_img {
+        grid-row: 9/10;
+        grid-column: 1/2;
+    }
+    
+    .cheesenbacon_txt {
+        grid-row: 9/10;
+        grid-column: 2/4;
+    }
+
+    .halloumi_img {
+        grid-row: 11/12;
+        grid-column: 1/2;
+    }
+    
+    .halloumi_txt {
+        grid-row: 11/12;
+        grid-column: 2/4;
+    }
 }
